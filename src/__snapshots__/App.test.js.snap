@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots App snapshots 1`] = `
+<Fragment>
+  <Header />
+  <styled.div>
+    <Memo(l) />
+    <div
+      className="App"
+    >
+      <styled.div>
+        <div
+          className="search"
+        >
+          <div
+            className="field"
+          >
+            <input
+              className="input-search"
+              id="input-search"
+              name="input-search"
+              onChange={[Function]}
+              required={true}
+              type="text"
+            />
+            <label>
+              Buscar Pokémon
+            </label>
+          </div>
+        </div>
+      </styled.div>
+      <button
+        className="btn-search"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Buscar
+      </button>
+      <button
+        className="btn-search btn-all"
+        onClick={[Function]}
+      >
+        Listar todos
+      </button>
+      <button
+        className="btn-search btn-favorited"
+        onClick={[Function]}
+      >
+        Ver meus favoritos
+      </button>
+      <List
+        list={Array []}
+        listBySearch={false}
+        notFound={false}
+        onFavorite={[Function]}
+      />
+    </div>
+  </styled.div>
+  <Loader
+    active={false}
+  />
+  <Loader
+    active={false}
+    list={Array []}
+  />
+</Fragment>
+`;
